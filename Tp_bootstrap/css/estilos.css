@@ -1,0 +1,546 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Work+Sans:wght@100;300;400;500;600;700&display=swap');
+
+/*reseteo de valores- reset*/
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+}
+
+/* Navegacion */
+.sum_navbar{
+    background-color: rgb(69, 69, 69);
+}
+
+.navbar-toggler{
+    background-color:white;
+    border:4px rgb(77, 76, 76) solid;
+}
+
+.nav-h{
+    height:initial;
+    height:12vh;
+}
+
+.contenedorLogo{
+    width: 100px;
+    object-fit: cover;
+}
+
+
+
+.linkNav1{
+    text-decoration: none;
+    padding-left:1.3rem;
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgb(241, 232, 232);   
+}
+
+.linkNav2{
+    text-decoration: none;
+    padding-left:1.3rem;
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgb(195, 190, 190);
+   
+}
+
+.linkNav3{
+    text-decoration: none;
+    padding-left:1.3rem;
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgb(55, 152, 55);
+}
+
+
+
+/* conferencia */
+
+.sectorGaleria{
+    width: 100%;
+    margin:0 auto;
+    position: relative;
+    height: 100%;
+
+}
+
+
+.sectorGaleria .textoFlotante {
+    position: absolute;
+    top: 20%;
+    left: 45%;
+    right: auto;
+    z-index: 100;
+    width: 50%;
+    color: #fff;
+    padding: 50px 3%;
+    text-align: right;
+    font-size:1rem;
+    font-family:'Roboto',sans-serif;
+    }
+
+
+
+.img-mv{
+    object-fit: cover;
+    width: 100%;
+    height: 88vh;
+    filter: brightness(0.75);
+}
+
+
+.hijoConferencia h1{
+    color:white;
+    text-align: right;   
+}
+
+.textoConferencia{
+    font-size: 1rem;
+    line-height: 1.5;
+    font-weight: 500;/*negrita*/
+    color:white;
+    text-align: right;
+}
+
+
+.opcionesConfe{
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.btnConferencia1{
+    border: 1px solid rgb(239, 235, 235);
+    border-radius: 5px;
+    margin: 10px;
+    padding:3px;
+    text-decoration: none;
+    color:rgb(241, 232, 232)
+}
+
+
+
+.btnConferencia2{
+    background-color: rgb(4, 143, 31);
+    border-radius: 5px;
+    margin: 10px;
+    padding:3px;
+    text-decoration: none;
+    color:rgb(241, 232, 232)
+}
+
+
+
+/* Oradores */
+
+.tituloOradores{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 1%;
+    padding-top: 3rem;
+
+}
+
+
+.tex1{
+    color:rgb(19, 18, 18);
+    font-size: 60%;
+    padding-left: 10px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    padding: 30px;
+
+}
+
+.tex2{
+    color:rgb(9, 9, 9);
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 80;
+    font-weight: 500;
+    font-size: 33px;
+}
+
+.cardBody{
+    margin:1px;    
+}
+
+
+.card img{
+    width:100%;
+    height: 60%;
+    object-fit: cover;  
+}
+
+
+.ubica-cards{
+    padding: 0px 60px;
+} 
+
+
+.tipo{
+    display: flex;
+    margin: 10px auto;
+    justify-content:flex-start;
+}
+
+.java{
+    background-color:rgb(229, 216, 38);
+    margin-left: 15px;
+    padding: 5px;
+    border-radius: 10%;
+    font-size: 90%;
+}
+
+
+.react{
+    background-color:rgb(74, 170, 202);
+    margin-left: 15px;
+    padding: 5px;
+    border-radius: 10%;
+    color:rgb(248, 245, 245);
+    font-size: 90%;   
+}
+
+.negocios{
+    background-color:rgb(137, 137, 136);
+    margin-left: 15px;
+    padding: 5px;
+    border-radius: 10%;
+    color: azure;
+    font-size: 90%; 
+}
+
+
+.startups{
+    background-color:rgb(235, 71, 42);
+    margin-left: 15px;
+    padding: 5px;
+    border-radius: 10%;
+    color:azure;
+    font-size: 90%;  
+}
+
+/* Lugar - Fecha */
+
+.contenedorLugarFecha{
+    display: flex;
+    width: 100%;
+    height:auto;
+    margin-left: 1px;
+
+
+
+}
+
+.hijoLugarFecha{
+    display: inline-block;
+    width:50%;
+
+
+}
+
+.hijoLugarFecha img{
+    width:100%;
+    height: 70vh;
+    object-fit: cover;
+    border: 1px white solid;  
+
+}
+
+.bsAs{
+    background-color: #504650;
+
+}
+
+
+.textoLugar{
+    font-size:0.8rem;
+    line-height: 1.5;
+    font-weight: 500;
+    color:rgb(237, 232, 232);
+    text-align:left;
+    padding: 20px 0 20px 0px;
+}
+
+.conMas{
+    border:1px solid white;
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+    color:rgb(241, 232, 232)
+}
+
+/* Sector Formulario */
+
+.tituloConvOradores{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 1%;
+}
+
+.tex3{
+    color:rgb(19, 18, 18);
+    font-size: 60%;
+    padding-left: 10px;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+
+}
+
+.tex4{
+    color:rgb(9, 9, 9);
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 80;
+    font-weight: 500;
+    font-size: 33px;
+    padding: 15px;
+}
+
+.tex5{
+    color:rgb(19, 18, 18);
+    font-size: 85%;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 3px ;
+}
+
+.punta{
+    text-decoration:underline;
+    text-decoration-style: dotted;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+}
+
+.input{
+    padding: 50%;
+    
+}
+
+.form-control{
+    height: initial;
+    width: initial;
+    margin: 5px;
+    width: 100%;
+    padding: 8px 8px 8px 8px;
+}
+
+.text-black {
+    margin-left: 75px;
+    font-family: 'Work Sans', sans-serif;
+}
+
+
+.enviar{
+    background-color:rgb(89, 180, 48);
+    color: whitesmoke;
+    font-size: 110%;
+    padding: 10px 278px;
+    border: transparent;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+/* Footer */
+
+
+.text-f{
+    padding-right: 10px;
+    padding-top: 5px;
+}
+
+
+.cont-foot{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(8,21,33,0.8913690476190477) 70%, rgba(39,86,99,1) 100%, rgba(0,212,255,1) 100%);
+}
+
+.text-f{
+    margin:initial;
+    margin-left: 20px;
+}
+    
+
+
+
+
+/*breakpoint para celular de 0 a 768px*/
+@media screen and (max-width: 767px)   {
+    .contenedorNav{
+        flex-direction: column;
+        height: initial;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1px;
+        margin-bottom: 1px;
+
+    }
+/*navegacion*/
+    .nav-h{
+        height:initial;
+
+    }
+
+    .navegacion .listaNav{
+    flex-direction: column;
+    }
+
+/*conferencia*/
+
+    #conferencia{
+        height: 80vh;
+    }   
+
+
+    .sectorTexto{
+        width:200%;
+    }
+
+    .sectorTexto h3{
+        text-align:center;
+        margin-bottom: 1rem;
+    }
+
+    .sectorGaleria .textoFlotante {
+        position: absolute;
+        top: 1%;
+        left: 13%;
+        right: auto;
+        z-index: 100;
+        width: 40%;
+        color: #fff;
+        padding: 50px 3%;
+        text-align: center;
+        font-size:100%;
+        font-family:'Roboto',sans-serif;
+ 
+    }
+        
+    .btn{
+        font-size:80%;
+        margin-top: 2rem;
+        }
+            
+
+    .img-mv{
+        object-fit: cover;
+        width: 100%;
+        height: 50vh;
+    
+    }
+    .row{
+        --bs-gutter-x: initial;
+        --bs-gutter-x: 1%;
+        }
+    
+
+/*Oradores*/
+
+    .card{
+        margin:initial;
+        margin-top:10px;
+        border: 1px solid #161616;
+    }
+
+    .ubica-cards{
+        padding: initial;
+    } 
+
+
+    .text-orador{
+        margin:initial;
+        text-align:center;
+    }
+       
+/*Lugar - Fecha*/
+
+    .bsAs{
+        height: initial; 
+        height: auto;
+        width:100%;
+        color: white;
+        padding: 10px 10px 30px 10px;
+        background-color: #504650;
+    }
+
+/* Sector Formulario */
+
+    .inputTexto{
+        display: block;
+    }
+
+    .textoTexarea{
+        height: initial;
+        width: initial;
+        width: 95%;
+        height: 100%;
+        margin-left: 15px;
+    }
+    .type-nomb{
+        border: 1px solid #161616;
+        margin:initial;
+        margin-left: 1px;
+        padding-bottom: 1px;
+        padding:5px;
+    }
+
+
+    #comment{
+        border: 1px solid #161616;
+        margin: initial;
+        margin-right: 7px;
+        margin-top: 7px;
+    }
+
+    .text-recuerda{
+        margin:initial;
+        margin-left: 10px;
+    }
+
+/* Sector Footer */
+
+    .cont-foot{
+        text-align: center;
+    }
+
+}
+
+
+/*tablet*/
+@media screen and (min-width:768px) and (max-width:1023px) {
+    /*se cargaron los estilos dentro de las llaves*/
+    .contenedorNav{
+        flex-direction: column;
+        height: initial;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+/*notebook*/
+@media screen and (min-width:1024px) and (max-width: 1400px) {
+
+    
+
+}
+
+@media screen and (min-width:1401px) {
+    
+}
+
+
+
+
